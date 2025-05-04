@@ -34,7 +34,7 @@ body {
     padding: 25px;
 }
 
-div p:first-child{
+div #heading:first-child{
     margin: 0;
     font-size: 48px;
     font-weight: 900;
@@ -45,7 +45,7 @@ img{
     height: auto;
 }
 
-button{
+#first-main-button{
     background-color: #3882F6;
     color: #F9FAF8;
     width: 80px;
@@ -105,4 +105,61 @@ button{
     display: flex;
     justify-content: center;
     padding: 30px;
+}
+
+/*forth-main*/
+
+.fourth-main{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.container-fourth-main{
+    background-color: #3882F6;
+    width: 900px;
+    height: 100px;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.p-tagbutton-tag{
+    display: flex;
+    gap: 65px;
+}
+
+#fourth-main-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 80px;
+    height: 25px;
+    border: 2px white solid;
+    border-radius: 5px;
+}
+
+div .remove1:first-child{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+}
+div .remove2:first-child{
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer{
+    color: #F9FAF8;
+    background-color: #1F2947;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: auto;
 }
